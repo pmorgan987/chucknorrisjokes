@@ -1,6 +1,6 @@
 <?php
 class ChuckNorrisAPIClient {
-    private $apiUrl = "https://www.patrick-morgan.com/chucknorris/api.php"; // Replace with the actual URL of the API
+    private $apiUrl = "https://www.patrick-morgan.com/chucknorris/api.php";
     private $username = "admin";
     private $password = "password";
 
