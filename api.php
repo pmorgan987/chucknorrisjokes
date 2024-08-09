@@ -1,4 +1,7 @@
 <?php
+header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Headers: *");
+
 class ChuckNorrisAPI {
     private $jokes = [
         "Chuck Norris doesn’t read books. He stares them down until he gets the information he wants.",
